@@ -1,0 +1,93 @@
+
+.options{
+    font-size: 30px;
+    text-align: left;
+    margin: 2px 50px 2px 50px;
+    font-family: 'Bebas Neue', cursive;
+}
+.temperature{
+    font-size: 120px;
+    color:#2C235A;  
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.numberTemperature {
+    font-size: 80px;
+    color: #2C235A;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 2px;
+    font-family: 'Bebas Neue', cursive;
+}
+.search{
+    padding: 20px 20px 20px 20px;
+    display: block;
+    width: 200px;
+    border-radius: 15px;
+    margin: 0px;
+
+}
+.location{
+    font-size: 20px;
+    text-align: right;
+    margin: 5px 50px 5px 50px;
+    font-family: 'Bebas Neue', cursive;
+}
+.search{
+    font-size: 12px;
+    border-radius: 30px;
+    border-color: #399DE3;
+    size-adjust: 10px;
+    text-align: center;
+    margin: 20px 2px 20px 200px;
+    display:block;
+    
+}
+.containertotal{
+    border: 3px;
+    border-radius: 10px;
+    border-color: #399DE3;
+    background: #F1F1F1;
+    border-style: ridge;
+    color:black;
+    size-adjust: 100px;
+    margin: 20px 200px 20px 200px;
+}
+.card-body{
+    border: 3px;
+    border-color: #399DE3;
+    border-radius: 10px;
+    border-style: double;
+    margin: 5px 50px 5px 50px;
+}
+    
+.dayweek{
+    font-weight: bold;
+    font-family: 'Bebas Neue', cursive;
+    margin:10px 5px 10px 5px;
+}
+
+.line {
+    border: none;
+    border-top: 3px double #333;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+.daytemp{
+    font-size: 12px;
+    margin: 10px auto;
+    font-family: 'Bebas Neue', cursive;
+}
+.card-title{
+    font-family: 'Bebas Neue', cursive;
+}
+.card-text{
+    font-family: 'Bebas Neue', cursive;
+}

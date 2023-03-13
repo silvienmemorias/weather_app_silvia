@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+    <title>Weather App</title>
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Unbounded&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/010e3f8fa6.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="containertotal text-center">
+      <div class="row align-items-center">
+        <div class="col">
+          <div class="temperature">
+            <img src="img/sun.png" width="120px" />
+            <h1 class="numberTemperature" id="numberTemp">26°C</h1>
+          </div>
+        </div>
+        <div class="col search">
+          <div class="input-group mb-3">
+            <input
+              type="text"
+              id="currentCity"
+              class="form-control"
+              placeholder="City"
+              aria-describedby="basic-addon2"
+            />
+            <div class="input-group-append">
+              <button
+                class="btn btn-outline-secondary"
+                type="button"
+                id="cityButton"
+                onclick="clickCity()"
+              >
+                🔍
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row align-items-center">
+        <div class="col">
+          <div class="options">
+            <a href="#" id="tempCel" onclick="clickcel()">Celsius</a> /
+            <a href="#" id="tempFah" onclick="clickfah()">Fahrenheid</a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="location">
+            <h2><strong>Medellín</strong></h2>
+            <h3>Saturday, 2:00 pm</h3>
+            <div>Sunny</div>
+          </div>
+        </div>
+      </div>
+      <div class="row align-items-center">
+        <div class="col">
+          <div class="card-body">
+            <img src="img/sunrise.png" width="60px" />
+            <h5 class="card-title">Sunrise</h5>
+            <p class="card-text">5:54 am</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card-body">
+            <img src="img/sunset.png" width="60px" />
+            <h5 class="card-title">Sunset</h5>
+            <p class="card-text">6:12 pm</p>
+          </div>
+        </div>
+
+        <div class="container text-center">
+          <div class="row justify-content-xs-center">
+            <div class="col">
+              <div class="dayweek">Sat</div>
+              <div><img src="img/sun.png" width="60px" /></div>
+              <div class="daytemp">26°C / 28°C</div>
+            </div>
+            <div class="col">
+              <div class="dayweek">Sun</div>
+              <div><img src="img/sun.png" width="60px" /></div>
+              <div class="daytemp">27°C / 29°C</div>
+            </div>
+            <div class="col">
+              <div class="dayweek">Mon</div>
+              <div><img src="img/suncloud.png" width="60px" /></div>
+              <div class="daytemp">26°C / 28°C</div>
+            </div>
+            <div class="col">
+              <div class="dayweek">Tue</div>
+              <div><img src="img/sun.png" width="60px" /></div>
+              <div class="daytemp">26°C / 28°C</div>
+            </div>
+            <div class="col">
+              <div class="dayweek">Wed</div>
+              <div><img src="img/suncloud.png" width="60px" /></div>
+              <div class="daytemp">26°C / 28°C</div>
+            </div>
+            <div class="col">
+              <div class="dayweek">Thu</div>
+              <div><img src="img/suncloud.png" width="60px" /></div>
+              <div class="daytemp">26°C / 28°C</div>
+            </div>
+            <div class="col">
+              <div class="dayweek">Fri</div>
+              <div><img src="img/sun.png" width="60px" /></div>
+              <div class="daytemp">26°C / 28°C</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <script src="src/script.js"></script>
+  </footer>
+</html>
